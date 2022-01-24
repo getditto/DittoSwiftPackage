@@ -1,4 +1,4 @@
-*.xcframework.*
+*.xcframework*
 *.xcodeproj
 .DS_Store
 .build
