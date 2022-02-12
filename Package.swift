@@ -17,7 +17,7 @@ let package = Package(
         .binaryTarget(
             name: "DittoSwift",
             url: "https://github.com/getditto/DittoSwift/releases/download/1.1.1/DittoSwift.xcframework.zip",
-            checksum: "0c4518ab8affb5b4e09c91f75ef46ab76c33be2735c52b16d4b58b189807e88b"
+            checksum: "9bbf1d367c62eb39d6bb9c5b48f7bffd2c906573ed065a562cff2df5ec3ec81c"
         ),
         .binaryTarget(
             name: "DittoObjC",
