@@ -16,13 +16,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DittoSwift",
-            url: "https://github.com/getditto/DittoSwiftPackage/releases/download/1.1.2/DittoSwift.xcframework.zip",
-            checksum: "ab35eb04286be704a9a115216035de5a43f6a8f57037390b848566e842e27279"
+            url: "https://github.com/getditto/DittoSwiftPackage/releases/download/1.1.3/DittoSwift.xcframework.zip",
+            checksum: "dd99fe30b7ff984a879e50c6f57a0a0f49448541562c015b2f6e48841705687c"
         ),
         .binaryTarget(
             name: "DittoObjC",
-            url: "https://github.com/getditto/DittoSwiftPackage/releases/download/1.1.2/DittoObjC.xcframework.zip",
-            checksum: "1af01b8bae8411cafab6758adb09decd17cfe89179f4f3d6e6908a75b2ad319e"
+            url: "https://github.com/getditto/DittoSwiftPackage/releases/download/1.1.3/DittoObjC.xcframework.zip",
+            checksum: "cc200ccfd103bd8893ba23d800d9c9c39347b69e5bd021aa233e31345d2a7afa"
         ),
     ]
 )
