@@ -1,5 +1,7 @@
 # Ditto Swift Package 📦
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgetditto%2FDittoSwiftPackage%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/getditto/DittoSwiftPackage) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgetditto%2FDittoSwiftPackage%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/getditto/DittoSwiftPackage)
+
 [![Ditto logo](https://www.ditto.live/_ipx/w_96,q_75/%2Flogos%2Flogo.png?url=%2Flogos%2Flogo.png&w=96&q=75)](https://www.ditto.live/)
 
 Swift package for the `DittoSwift` and `DittoObjC` frameworks. This repo contains
