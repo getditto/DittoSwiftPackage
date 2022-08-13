@@ -1,0 +1,9 @@
+*.xcframework*
+*.xcodeproj
+.DS_Store
+.build
+.swiftpm/
+DerivedData/
+Package.resolved
+Packages/
+xcuserdata/
