@@ -8,12 +8,19 @@ let package = Package(
     products: [
         .library(
             name: "DittoSwift",
-            targets: ["DittoSwift"]),
+            targets: ["DittoSwiftWrapper"]),
         .library(
             name: "DittoObjC",
             targets: ["DittoObjC"]),
     ],
     targets: [
+        .target(
+            name: "DittoSwiftWrapper",
+            dependencies: [
+                .target(name: "DittoSwift"),
+                .target(name: "DittoObjC"),
+            ]
+        ),
         .binaryTarget(
             name: "DittoSwift",
             url: "https://software.ditto.live/cocoa/DittoSwift/2.0.7/dist/DittoSwift.xcframework.zip",
