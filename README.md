@@ -1,6 +1,8 @@
-![Ditto Lockup Blue GitHub (1)](https://github.com/getditto/DittoSwiftPackage/assets/28851/6d513f89-77c0-4627-b2ac-d55edf5e69f4)![Ditto Lockup Blue GitHub](https://github.com/getditto/DittoSwiftPackage/assets/28851/a1a6cec6-5317-40e3-b566-2f9004b76d9f)![Ditto Lockup Blue GitHub](https://github.com/getditto/DittoSwiftPackage/assets/28851/e45d450b-72dc-476e-bf9b-d014c5f4c6c2)# Ditto Swift Package 📦
+# Ditto Swift Package 📦
 
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgetditto%2FDittoSwiftPackage%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/getditto/DittoSwiftPackage) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgetditto%2FDittoSwiftPackage%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/getditto/DittoSwiftPackage)
+
+![Ditto Logo](https://github.com/getditto/DittoSwiftPackage/assets/28851/6d513f89-77c0-4627-b2ac-d55edf5e69f4)
 
 <div>
 
