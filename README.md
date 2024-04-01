@@ -36,7 +36,7 @@ for details on how to get started and use this package in your app.
 
 ## ✍🏻 Author
 
-Ditto (contact@ditto.live)
+Ditto (<support@ditto.live>)
 
 ## 📄 License
 
