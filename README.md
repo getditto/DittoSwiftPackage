@@ -2,8 +2,6 @@
 
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgetditto%2FDittoSwiftPackage%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/getditto/DittoSwiftPackage) [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fgetditto%2FDittoSwiftPackage%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/getditto/DittoSwiftPackage)
 
-![Ditto Logo](https://github.com/getditto/DittoSwiftPackage/assets/28851/6d513f89-77c0-4627-b2ac-d55edf5e69f4)
-
 <div>
 
 <svg width="167" height="64" viewBox="0 0 167 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +36,7 @@ for details on how to get started and use this package in your app.
 
 ## ✍🏻 Author
 
-Ditto (contact@ditto.live)
+Ditto (<support@ditto.live>)
 
 ## 📄 License
 
