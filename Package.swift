@@ -1,10 +1,14 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.10
 
 import PackageDescription
 
 let package = Package(
     name: "Ditto",
-    platforms: [ .iOS(.v11), .macOS(.v11) ],
+    platforms: [
+        .iOS(.v14),
+        .macOS(.v11),
+        .visionOS(.v1),
+    ],
     products: [
         .library(
             name: "DittoSwift",
