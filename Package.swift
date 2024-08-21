@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "Ditto",
-    platforms: [ .iOS(.v11), .macOS(.v11) ],
+    platforms: [ .iOS(.v14), .macOS(.v11), .macCatalyst(.v14), .tvOS(.v14) ],
     products: [
         .library(
             name: "DittoSwift",
@@ -23,13 +23,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "DittoSwift",
-            url: "https://software.ditto.live/cocoa/DittoSwift/4.7.5-rc.1/dist/DittoSwift.xcframework.zip",
-            checksum: "6dba4326eb7677003500585f7598c2030a9b5eec6671327c4815d96dc12328a1"
+            url: "https://software.ditto.live/cocoa/DittoSwift/4.8.0/dist/DittoSwift.xcframework.zip",
+            checksum: "71c573fd261bcb30efb66e8918e736743de731c97071a1fb03e2c2208ea88cbf"
         ),
         .binaryTarget(
             name: "DittoObjC",
-            url: "https://software.ditto.live/cocoa/DittoObjC/4.7.5-rc.1/dist/DittoObjC.xcframework.zip",
-            checksum: "61f2a75002d0b45887238447fd8f31ad55adefc641ddd97a858c8d7d71c46395"
+            url: "https://software.ditto.live/cocoa/DittoObjC/4.8.0/dist/DittoObjC.xcframework.zip",
+            checksum: "052dbf0db7d91a6e8c095b5aea652bfea239886d8913a8116ac92f74a94b30a0"
         ),
     ]
 )
