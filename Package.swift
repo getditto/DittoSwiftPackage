@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.8.1
 
 import PackageDescription
 
@@ -23,13 +23,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "DittoSwift",
-            url: "https://software.ditto.live/cocoa/DittoSwift/4.8.4-rc.1/dist/DittoSwift.xcframework.zip",
-            checksum: "11fcd92d546286665c20c8f9b8ede554a23e6719c8f6395cb0049e1c773b7f85"
+            url: "https://software.ditto.live/cocoa/DittoSwift/4.9.3-rc.1/dist/DittoSwift.xcframework.zip",
+            checksum: "dfef7f574852ef247901745ce4cc7775142808f7580ac1673791c964c7dae04a"
         ),
         .binaryTarget(
             name: "DittoObjC",
-            url: "https://software.ditto.live/cocoa/DittoObjC/4.8.4-rc.1/dist/DittoObjC.xcframework.zip",
-            checksum: "b394235b17f9c7e59a619c655b9f8cfe50d6fb59dc155f9acf116bbb07007ebc"
+            url: "https://software.ditto.live/cocoa/DittoObjC/4.9.3-rc.1/dist/DittoObjC.xcframework.zip",
+            checksum: "b0d525ea23a0f06f4232db379a4e82c7945c79d077c2b26cd72d1f9ee5370c5f"
         ),
     ]
 )
