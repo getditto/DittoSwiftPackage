@@ -8,13 +8,28 @@ let package = Package(
     products: [
         .library(
             name: "DittoSwift",
-            targets: ["DittoSwift"]),
+            targets: ["DittoSwiftWrapper"]),
+        .library(
+            name: "DittoObjC",
+            targets: ["DittoObjC"]),
     ],
     targets: [
+        .target(
+            name: "DittoSwiftWrapper",
+            dependencies: [
+                .target(name: "DittoSwift"),
+                .target(name: "DittoObjC"),
+            ]
+        ),
         .binaryTarget(
             name: "DittoSwift",
-            url: "https://software.ditto.live/cocoa/DittoSwift/5.0.0-experimental.kb-inline-objc-into-swift-sdk.5/dist/DittoSwift.xcframework.zip",
-            checksum: "62be966ac68bc3d04b0f99268a6c257b35668cbf444e3e2f4983696deb229039"
-        )
+            url: "https://software.ditto.live/cocoa/DittoSwift/4.11.5-rc.1/dist/DittoSwift.xcframework.zip",
+            checksum: "7c55059d29ab13206c3c5621163830668bcf97628bd97ff957071caea335abc9"
+        ),
+        .binaryTarget(
+            name: "DittoObjC",
+            url: "https://software.ditto.live/cocoa/DittoObjC/4.11.5-rc.1/dist/DittoObjC.xcframework.zip",
+            checksum: "d42d8b66b10c17bdb3a5510d18d05aabf0e26e288d2226b16ed041bf19154402"
+        ),
     ]
 )
