@@ -23,13 +23,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "DittoSwift",
-            url: "https://software.ditto.live/cocoa/DittoSwift/4.12.3/dist/DittoSwift.xcframework.zip",
-            checksum: "e8af13532fc4f5adfa0735123b9468602700e7053018d7a5776b8d700d8e01d9"
+            url: "https://software.ditto.live/cocoa/DittoSwift/4.11.6/dist/DittoSwift.xcframework.zip",
+            checksum: "45ed3e67de4898eed7bbe655280eb90463e5f3488cae68784b0688447f6d0fb9"
         ),
         .binaryTarget(
             name: "DittoObjC",
-            url: "https://software.ditto.live/cocoa/DittoObjC/4.12.3/dist/DittoObjC.xcframework.zip",
-            checksum: "5d0a7046e5431b4689b7169eb1adb5a28086d04d4d0e0787e0376c8e0269cb19"
+            url: "https://software.ditto.live/cocoa/DittoObjC/4.11.6/dist/DittoObjC.xcframework.zip",
+            checksum: "d01b0410c1e664cb28f36995cce7bb0991d8704b943642a436f90ee5a7befb93"
         ),
     ]
 )
