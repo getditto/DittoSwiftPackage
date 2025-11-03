@@ -4,17 +4,32 @@ import PackageDescription
 
 let package = Package(
     name: "Ditto",
-    platforms: [ .iOS(.v15), .macOS(.v12), .macCatalyst(.v15), .tvOS(.v15) ],
+    platforms: [ .iOS(.v14), .macOS(.v11), .macCatalyst(.v14), .tvOS(.v14) ],
     products: [
         .library(
             name: "DittoSwift",
-            targets: ["DittoSwift"]),
+            targets: ["DittoSwiftWrapper"]),
+        .library(
+            name: "DittoObjC",
+            targets: ["DittoObjC"]),
     ],
     targets: [
+        .target(
+            name: "DittoSwiftWrapper",
+            dependencies: [
+                .target(name: "DittoSwift"),
+                .target(name: "DittoObjC"),
+            ]
+        ),
         .binaryTarget(
             name: "DittoSwift",
-            url: "https://software.ditto.live/cocoa/DittoSwift/5.0.0-dev-weekly.20251103.83/dist/DittoSwift.xcframework.zip",
-            checksum: "2ab2e81402e6c709485bc2542a5490341f6c9a26b6b93724ec1972a762a4f3d1"
-        )
+            url: "https://software.ditto.live/cocoa/DittoSwift/4.13.0-experimental-internal-jj-ws-support.1/dist/DittoSwift.xcframework.zip",
+            checksum: "6e052f701dcba2a88ee881c7bfb7e911c186fcceb47279c0fe69a0e1dd408673"
+        ),
+        .binaryTarget(
+            name: "DittoObjC",
+            url: "https://software.ditto.live/cocoa/DittoObjC/4.13.0-experimental-internal-jj-ws-support.1/dist/DittoObjC.xcframework.zip",
+            checksum: "96d21d39d119eb24a081f7238675a11a6b081b827a97868fd9eab59aec522d0b"
+        ),
     ]
 )
