@@ -1,35 +1,20 @@
-// swift-tools-version:5.8.1
+// swift-tools-version:6.0
 
 import PackageDescription
 
 let package = Package(
     name: "Ditto",
-    platforms: [ .iOS(.v14), .macOS(.v11), .macCatalyst(.v14), .tvOS(.v14) ],
+    platforms: [ .iOS(.v15), .macOS(.v12), .macCatalyst(.v15), .tvOS(.v15) ],
     products: [
         .library(
             name: "DittoSwift",
-            targets: ["DittoSwiftWrapper"]),
-        .library(
-            name: "DittoObjC",
-            targets: ["DittoObjC"]),
+            targets: ["DittoSwift"]),
     ],
     targets: [
-        .target(
-            name: "DittoSwiftWrapper",
-            dependencies: [
-                .target(name: "DittoSwift"),
-                .target(name: "DittoObjC"),
-            ]
-        ),
         .binaryTarget(
             name: "DittoSwift",
-            url: "https://software.ditto.live/cocoa/DittoSwift/4.13.3-rc.1/dist/DittoSwift.xcframework.zip",
-            checksum: "ab423c18c88e9f680b06056d8d7c4330a5c57bc0b2dd40b244778ea70ca1f6d4"
-        ),
-        .binaryTarget(
-            name: "DittoObjC",
-            url: "https://software.ditto.live/cocoa/DittoObjC/4.13.3-rc.1/dist/DittoObjC.xcframework.zip",
-            checksum: "ce176315aa98f0ba81a0b1d3e05b7ff8e2bfaf31600f1b484454c7a831be3c63"
-        ),
+            url: "https://software.ditto.live/cocoa/DittoSwift/5.0.0-dev-weekly.20260126.180/dist/DittoSwift.xcframework.zip",
+            checksum: "74ccd99bf5018c1d7c3ecc41173a27a2b356593dc39bde71b5a8470a3feb580d"
+        )
     ]
 )
