@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DittoSwift",
-            url: "https://software.ditto.live/cocoa/DittoSwift/5.1.0-experimental-transports-android-module.3/dist/DittoSwift.xcframework.zip",
-            checksum: "4df69c60ea53c822f8b9af9c67a625bd3b219c22760901ba810f972193a92bb5"
+            url: "https://software.ditto.live/cocoa/DittoSwift/5.1.0-experimental-transports-android-module.4/dist/DittoSwift.xcframework.zip",
+            checksum: "c01c28380f63cec7b890e18c04bc72e5089c44273c1cc31d8135ac4ff7a89b2a"
         )
     ]
 )
