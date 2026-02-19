@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DittoSwift",
-            url: "https://software.ditto.live/cocoa/DittoSwift/5.1.0-experimental-slack-notification-removal.1/dist/DittoSwift.xcframework.zip",
-            checksum: "dcb7c006cf851837c2ecdbc175ae4a810cdd9be62450867a679867c18320f578"
+            url: "https://software.ditto.live/cocoa/DittoSwift/5.1.0-experimental-transports-android-module.5/dist/DittoSwift.xcframework.zip",
+            checksum: "a344a8673b75333a6ec994a4326427d8cae7c22e5c8eb269a8024f0ae0259e1e"
         )
     ]
 )
