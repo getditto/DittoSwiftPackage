@@ -1,20 +1,35 @@
-// swift-tools-version:6.0
+// swift-tools-version:5.8.1
 
 import PackageDescription
 
 let package = Package(
     name: "Ditto",
-    platforms: [ .iOS(.v15), .macOS(.v12), .macCatalyst(.v15), .tvOS(.v15) ],
+    platforms: [ .iOS(.v14), .macOS(.v11), .macCatalyst(.v14), .tvOS(.v14) ],
     products: [
         .library(
             name: "DittoSwift",
-            targets: ["DittoSwift"]),
+            targets: ["DittoSwiftWrapper"]),
+        .library(
+            name: "DittoObjC",
+            targets: ["DittoObjC"]),
     ],
     targets: [
+        .target(
+            name: "DittoSwiftWrapper",
+            dependencies: [
+                .target(name: "DittoSwift"),
+                .target(name: "DittoObjC"),
+            ]
+        ),
         .binaryTarget(
             name: "DittoSwift",
-            url: "https://software.ditto.live/cocoa/DittoSwift/5.0.0-rc.5/dist/DittoSwift.xcframework.zip",
-            checksum: "8f69599793ba397cb4e9f64093032ec316221a303fc4bc74ad37a3575fcf47f2"
-        )
+            url: "https://software.ditto.live/cocoa/DittoSwift/4.12.6-experimental-conn-limit-meshlab/dist/DittoSwift.xcframework.zip",
+            checksum: "516a397f279026a1cbca5262ef4b35a96a722b1fe2417b77814a43ff3780e13b"
+        ),
+        .binaryTarget(
+            name: "DittoObjC",
+            url: "https://software.ditto.live/cocoa/DittoObjC/4.12.6-experimental-conn-limit-meshlab/dist/DittoObjC.xcframework.zip",
+            checksum: "85e3b1714d581d3d7e5ba915759e810d9eff84cc6f1416e67b30f80a7d0bef6f"
+        ),
     ]
 )
