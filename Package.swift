@@ -23,13 +23,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "DittoSwift",
-            url: "https://software.ditto.live/cocoa/DittoSwift/4.12.6-experimental-conn-limit-meshlab-ipv4-cifix/dist/DittoSwift.xcframework.zip",
-            checksum: "384a911f3c16ee52869ead8becd7a6f44d1e6932e0ea5eac784f670151ec2943"
+            url: "https://software.ditto.live/cocoa/DittoSwift/4.12.6-preview.0/dist/DittoSwift.xcframework.zip",
+            checksum: "4388fe1e6fe76e06b82c5f4f6be8e37df021713c2e368572b4d39e6a4bf402e6"
         ),
         .binaryTarget(
             name: "DittoObjC",
-            url: "https://software.ditto.live/cocoa/DittoObjC/4.12.6-experimental-conn-limit-meshlab-ipv4-cifix/dist/DittoObjC.xcframework.zip",
-            checksum: "6e6103a05eb234f77ae357ee3a74a50dcd627a2d45cbaca416906fbb4a6651ff"
+            url: "https://software.ditto.live/cocoa/DittoObjC/4.12.6-preview.0/dist/DittoObjC.xcframework.zip",
+            checksum: "973ce46e4ce1c5ae4cd2b001908f445b3d5d9536b1a8a57d4dd884871c5f7df5"
         ),
     ]
 )
