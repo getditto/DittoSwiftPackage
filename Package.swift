@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "Ditto",
-    platforms: [ .iOS(.v15), .macOS(.v12), .macCatalyst(.v15), .tvOS(.v15) ],
+    platforms: [ .iOS(.v15), .macOS(.v12), .macCatalyst(.v15) ],
     products: [
         .library(
             name: "DittoSwift",
@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DittoSwift",
-            url: "https://software.ditto.live/cocoa/DittoSwift/5.0.3/dist/DittoSwift.xcframework.zip",
-            checksum: "9ab6999b2d56dede05be055380a924e3011d984af6c9d07ccd1968d2f5d2ed1f"
+            url: "https://software.ditto.live/swift/DittoSwift/5.1.0-preview.11/dist/DittoSwift.xcframework.zip",
+            checksum: "4e51ec3ab519fc8d8eaaa7489faf7e34cd96cc927161ac192f8891b99646f74c"
         )
     ]
 )
