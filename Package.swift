@@ -1,4 +1,4 @@
-// swift-tools-version: 6.2
+// swift-tools-version:6.0
 
 import PackageDescription
 
@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DittoSwift",
-            url: "https://software.ditto.live/swift/DittoSwift/5.3.0-dev-weekly.20261101.3031/dist/DittoSwift.xcframework.zip",
-            checksum: "81b3490bf3a5d744c1be5c3ae7c9d329d989e1784eb9a63f39717c9526cfd29d"
+            url: "https://software.ditto.live/swift/DittoSwift/5.1.1-rc.3/dist/DittoSwift.xcframework.zip",
+            checksum: "31dcba1cf4a011a930e277b16ef2f92f3da075cc23247a3b2f7734cd627566d3"
         )
     ]
 )
